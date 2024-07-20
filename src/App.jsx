@@ -1,14 +1,14 @@
 import { useState ,useEffect} from 'react'
-
 import './App.css'
+import Cart from './component/Cart'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
 
   return (
     <>
-      
+      <Cart></Cart>
     </>
   )
 }
