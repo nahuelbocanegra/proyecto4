@@ -1,26 +1,25 @@
-import ini1 from "ini1"
-import ini2 from "ini2"
-import ini3 from "ini3"
-import ini4 from "ini4"
-import ini5 from "ini5"
-import ini6 from "ini6"
-import ini7 from "ini7"
-import ini8 from "ini8"
-import ini9 from "ini9"
+import ini1 from "../img/inicio/ini1.jpg"
+import ini2 from "../img/inicio/ini2.jpg"
+import ini3 from "../img/inicio/ini3.jpg"
+import ini4 from "../img/inicio/ini4.jpg"
+import ini5 from "../img/inicio/ini5.jpg"
+import ini6 from "../img/inicio/ini6.jpg"
+import ini7 from "../img/inicio/ini7.jpg"
+import ini8 from "../img/inicio/ini8.jpg"
+import ini9 from "../img/inicio/ini9.jpg"
 
 
 
 
-const ini={
-    "ini1" : ini1,
-    "ini2" : ini2,
-    "ini3" : ini3,
-    "ini4" : ini4,
-    "ini5" : ini5,
-    "ini6" : ini6,
-    "ini7" : ini7,
-    "ini8" : ini8,
-    "ini9" : ini9,
-}
+export default[
+    ini1,
+    ini2,
+    ini3,
+    ini4,
+    ini5,
+    ini6,
+    ini7,
+    ini8,
+    ini9,
+]
 
-export default ini;
