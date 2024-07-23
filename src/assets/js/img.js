@@ -1,4 +1,3 @@
-
 import car2 from '../img/car2.jpg'
 import car4 from '../img/car4.jpg'
 import arq1 from '../img/arq1.jpg'
@@ -8,10 +7,6 @@ import dep3 from "../img/dep3.jpg"
 import mus2 from "../img/mus2.jpg"
 import pai1 from '../img/pai1.jpg'
 import pai2 from '../img/pai2.jpg'
-
-
-
-
 
 const img=[
     arq1,
@@ -23,7 +18,5 @@ const img=[
     dep3,
     pai1,
     arq3,
-    
 ]
-
 export default img;

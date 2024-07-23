@@ -5,15 +5,13 @@ import Loader from './component/Loader'
 
 function App(){
   const [estado,setEstado]=useState(true)
- setTimeout(()=>{
-    console.log("hola")
+  setTimeout(()=>{
     setEstado(false)
- },1000)
+  },1000)
   
   return(
       <>       
-              {estado? <Loader></Loader> : <Card></Card>}
-         
+        <Loader></Loader>  
       </>
   )
 }

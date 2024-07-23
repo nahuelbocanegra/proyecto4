@@ -1,6 +1,9 @@
 function Loader(){
     return(
-        <div className="loader"></div>
+        <div className="cont-loader">
+            <div className="loader"></div>
+
+        </div>
     )
 }
 

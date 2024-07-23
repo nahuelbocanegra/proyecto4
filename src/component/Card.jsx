@@ -1,21 +1,29 @@
-
 import img from "../assets/js/img"
 
 function Card(){
     
+    const cambioFondo=(index)=>{
+        document.body.style.backgroundImage=`url(${index})`
+    }
     return(
-        <>
+        <>  
             <article className="Card">
 
                 {
                     img.map(( url,index)=>(
-                                    
-                        <img key={index}  className={`imgArray${index} img` } src={url} alt=""  />                                        
-                                    
+                        <div   
+                            key={index}                           
+                            className={`imgArray${index} contenedor`}
+                            >
+                            <img  
+                                onClick={()=>{cambioFondo(url)}}
+                                className="img"  src={url} alt=""  />                                        
+                        </div>   
                     ))
                 }
 
             </article>
+
             
         </>
     )
